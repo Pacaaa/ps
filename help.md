@@ -152,3 +152,6 @@ read -p "Kerdes: " nev
 | `-w`     | Írható-e a fájl                | `[ -w "$file" ]` |
 | `-x`     | Futtatható-e a fájl            | `[ -x "$file" ]` |
 | `-s`     | Nem üres fájl-e                | `[ -s "$file" ]` |
+
+## Csabika
+https://github.com/csabisoos/szamrend_zh
