@@ -19,9 +19,6 @@ Write-Output "Teszt2" | Out-File "output.txt" -Append
 $data = Import-Csv -Path "data.csv" -Delimiter ";"
 $csvContent = Import-Csv -Path "adatok.csv" -Delimiter ";" -Header "ID", "Name", "Age"
 
-# Kiíratás
-$csvContent
-
 ```
 
 ```powershell
