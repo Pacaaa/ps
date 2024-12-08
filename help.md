@@ -18,6 +18,10 @@ Write-Output "Teszt2" | Out-File "output.txt" -Append
 ```powershell
 $data = Import-Csv -Path "data.csv" -Delimiter ";"
 $csvContent = Import-Csv -Path "adatok.csv" -Delimiter ";" -Header "ID", "Name", "Age"
+
+# Kiíratás
+$csvContent
+
 ```
 
 ```powershell
@@ -107,4 +111,15 @@ Write-Host "The result is: $result"
 ```powershell
 Get-ChildItem -Path . -Recurse
 $a = Get-ChildItem -Path . -Filter "*.txt"
+```
+
+```powershell
+for ($i = 0; $i -lt $numRolls; $i++) {
+}
+```
+
+```powershell
+$number = 5
+$greeting = "The number is: $($number * 2)"
+Write-Host $greeting
 ```
