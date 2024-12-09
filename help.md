@@ -3,6 +3,10 @@ Get-Help Get-Content
 ```
 
 ```powershell
+[Parameter(ValueFromPipeline=$true)]
+```
+
+```powershell
 $nev = Read-Host "Add meg a neved"
 ```
 
