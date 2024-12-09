@@ -120,3 +120,11 @@ $number = 5
 $greeting = "The number is: $($number * 2)"
 Write-Host $greeting
 ```
+
+```
+https://github.com/AttilaMagyar/PowerShell?fbclid=IwZXh0bgNhZW0CMTEAAR2N0EBMyaC5VE_DQYQyn08KpkFhQvnYwclIqeYNrdbeu4I5_fFOh_2ELEY_aem_YnYGOPWBpRxBIt8ZS0gONA
+```
+
+```
+https://github.com/Valentinusz/elte-ik-bsc
+```
